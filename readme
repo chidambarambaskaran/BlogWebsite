@@ -1,1 +1,8 @@
+cd backend
+npm init -y
+npm install express mongoose bcryptjs jsonwebtoken cors dotenv
+npm run dev
 
+cd frontend
+npm install axios react-router-dom
+npm start
